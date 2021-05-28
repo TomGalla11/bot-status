@@ -5,7 +5,7 @@
     "telegram",
     "best"
   ],
-  "repository": "https://github.com/Ns-AnoNymouS/bot-status/tree/master",
+  "repository": "https://github.com/TomGalla11/bot-status/tree/master",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
