@@ -36,7 +36,7 @@ def main():
                     edit_text += f"__➩ Bot Name:__ **@{bot}**\n__➩ Bot Status:__ **Up ✅**\n\n"
                 user_client.read_history(bot)
 
-            time_now = datetime.datetime.now(pytz.timezone('America/New_York'))
+            time_now = datetime.datetime.now(pytz.timezone('US/Pacific'))
             ist = time_now.strftime("%d %B %Y %I:%M %p")
 
             edit_text += f"⏳ 𝗟𝗮𝘀𝘁 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 & 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗢𝗻 : \n\n__{ist}__ **• IST 🇮🇳**"
