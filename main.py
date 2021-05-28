@@ -39,7 +39,7 @@ def main():
             time_now = datetime.datetime.now(pytz.timezone('UTC'))
             formatted_time = time_now.strftime("%d %B %Y %I:%M %p")
 
-            edit_text += f"__Last checked on {formatted_time} (**UTC**)__"
+            edit_text += f"__Last checked on {formatted_time} (UTC)**__"
 
             for status_message_id in status_message_ids:
                 user_client.edit_message_text(int(update_channel), status_message_id,
